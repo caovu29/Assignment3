@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+  .a {
+    border: none;
+    justify-content: flex-start;
+  }
+
+  .row1 > div {
+    margin-bottom: 24px;
+    box-shadow: 0 5px 5px rgb(218, 216, 216);
+  }
+  .row1 > div:last-child {
+    margin-bottom: 0px;
+  }
+
+  #certificate img {
+    width: 100%;
+    height: auto;
+  }
+  .target,
+  .personal-info {
+    width: 100%;
+  }
+  #footer li {
+    display: none;
+  }
+  html h1 {
+    font-size: 2em;
+  }
+
+  html p,
+  html li,
+  html tr,
+  html span {
+    font-size: 18px;
+  }
+  .social i {
+    display: block;
+    margin-left: 12px;
+    transform: scale(1.5);
+  }
+  .a {
+    display: flex;
+    gap: 6px;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 6px;
+  }
+
+  .icon2 {
+    transform: scale(3);
+  }
+
+  .col1 {
+    padding-top: 30px;
+  }
+  nav {
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .icon5 {
+    display: block;
+    transform: scale(2);
+  }
+}
